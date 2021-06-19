@@ -2,9 +2,11 @@ $(document).ready(function() {
 	$("#formOne").submit(function(event) {
 		const question1Input = $("input#question1").val();
 		const question2Input = $("input#question2").val();
+		const question3Input = $("input#question3").val();
 
 		$(".question1").text(question1Input);
 		$(".question2").text(question2Input);
+		$(".question3").text(question3Input);
 
 
 		let count = 0;
@@ -19,6 +21,12 @@ $(document).ready(function() {
 			count = count +1;
 		} else {
 			count = count-1;
+		}
+
+		if (".question3" === "academia") {
+			count = count +1;
+		} else {
+			count = count -1;
 		}
 
 		if (count >= 1) {
