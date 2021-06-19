@@ -45,8 +45,6 @@ $(document).ready(function() {
 			$("#cSharp").show();
 		};
 
-		$("#count").show();
-
 		event.preventDefault();
 	});
 });
