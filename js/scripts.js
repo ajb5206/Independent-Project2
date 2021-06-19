@@ -5,33 +5,33 @@ $(document).ready(function() {
 		const question3Input = $("input#question3").val();
 		const question4Input = $("input#question4").val();
 
-		$(".question1").text(question1Input);
-		$(".question2").text(question2Input);
-		$(".question3").text(question3Input);
-		$(".question4").text(question4Input);
+		//$(".question1").text(question1Input);
+		//$(".question2").text(question2Input);
+		//$(".question3").text(question3Input);
+		//$(".question4").text(question4Input);
 
 
 		let count = 0;
-		if (".question1" === "front-end") {
+		if ( question1Input === "front-end") {
 			count = count +1;
 		} else {
 			count = count -1;
 		};
 
 
-		if (".question2" === "user interface") {
+		if (question2Input === "user interface") {
 			count = count +1;
 		} else {
 			count = count-1;
 		};
 
-		if (".question3" === "academia") {
+		if (question3Input === "academia") {
 			count = count +1;
 		} else {
 			count = count -1;
 		};
 
-		if (".question4" === "creativity") {
+		if (question4Input === "creativity") {
 			count = count +1;
 		} else {
 			count = count -1;
