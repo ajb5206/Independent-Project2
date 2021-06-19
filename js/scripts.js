@@ -12,26 +12,26 @@ $(document).ready(function() {
 
 
 		let count = 0;
-		if ( question1Input === "front-end") {
+		if ( question1Input === "front-end" || "front end" || "Front end" || "Front-end") {
 			count = count +1;
 		} else {
 			count = count -1;
 		};
 
 
-		if (question2Input === "user interface") {
+		if (question2Input === "user interface" || "User interface") {
 			count = count +1;
 		} else {
 			count = count-1;
 		};
 
-		if (question3Input === "academia") {
+		if (question3Input === "academia" || "Academia") {
 			count = count +1;
 		} else {
 			count = count -1;
 		};
 
-		if (question4Input === "creativity") {
+		if (question4Input === "creativity" || "Creativity") {
 			count = count +1;
 		} else {
 			count = count -1;
