@@ -1,3 +1,8 @@
+
+body {
+	background-color: white;
+}
+
 h1 {
 	text-align:center;
 	font-family: sans-serif;
@@ -5,6 +10,7 @@ h1 {
 
 .container {
 	font-family: sans-serif;
+	background-color: rgb(239, 240, 252);
 }
 
 #javascript {

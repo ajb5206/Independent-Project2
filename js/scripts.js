@@ -51,14 +51,17 @@ $(document).ready(function() {
 			$("#javascript").show();
 			$("#python").hide();
 			$("#cSharp").hide();
+			$("#formOne").hide();
 		} else if (count === 0) {
 			$("#python").show();
 			$("#javascript").hide();
 			$("#cSharp").hide();
+			$("#formOne").hide();
 		} else {
 			$("#cSharp").show();
 			$("#javascript").hide();
 			$("#python").hide();
+			$("#formOne").hide();
 		};
 
 		$("#count").text(count);
