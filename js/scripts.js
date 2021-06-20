@@ -52,6 +52,9 @@ $(document).ready(function() {
 			$("#cSharp").show();
 		};
 
+		$("#count").text(count);
+    $("#quote").show()
+
 		event.preventDefault();
 	});
 });
