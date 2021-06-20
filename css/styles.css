@@ -23,7 +23,9 @@ h1 {
   display: none;
 }
 
-btn{
-	border: 2px;
+.btn{
+	border: 5px;
+	border-color: black;
 	color:aquamarine
+	padding: 10px 24px;
 }
