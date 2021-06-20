@@ -5,49 +5,47 @@ $(document).ready(function() {
 		const question3Input = $("input#question3").val();
 		const question4Input = $("input#question4").val();
 		const question5Input = $("input#question5").val();
-
-		//$(".question1").text(question1Input);
-		//$(".question2").text(question2Input);
-		//$(".question3").text(question3Input);
-		//$(".question4").text(question4Input);
-
+		const question6Input = $("input#question6").val();
 
 		let count = 0;
+
 		if ( question1Input === "front-end") {
-			count = count +1;
+			count += 1;
 		} else {
-			count = count -1;
+			count -= 1;
 		};
 
 		if (question2Input === "user interface") {
-			count = count +1;
+			count += 1;
 		} else {
-			count = count -1;
+			count -= 1;
 		};
 
 		if (question3Input === "academic") {
-			count = count +1;
+			count += 1;
 		} else {
-			count = count -1;
+			count -= 1;
 		};
 
 		if (question4Input === "creativity") {
-			count = count +1;
+			count += 1;
 		} else {
-			count = count -1;
+			count -= 1;
 		};
 
 		if (question5Input === "dancing") {
-			count = count +1;
+			count += 1;
 		} else {
-			count = count -1;
+			count -= 1;
 		};
 
-		if (question5Input === "chocolate") {
-			count = count +1;
+		if (question6Input === "chocolate") {
+			count += 1;
 		} else {
-			count = count -1;
+			count -= 1;
 		};
+
+		$("body").removeClass();
 
 		if (count >= 1) {
 			$("#javascript").show();
