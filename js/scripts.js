@@ -25,7 +25,7 @@ $(document).ready(function() {
 			count = count -1;
 		};
 
-		if (question3Input === "academia") {
+		if (question3Input === "academic") {
 			count = count +1;
 		} else {
 			count = count -1;
@@ -38,6 +38,12 @@ $(document).ready(function() {
 		};
 
 		if (question5Input === "dancing") {
+			count = count +1;
+		} else {
+			count = count -1;
+		};
+
+		if (question5Input === "chocolate") {
 			count = count +1;
 		} else {
 			count = count -1;
