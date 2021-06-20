@@ -3,20 +3,25 @@ h1 {
 	font-family: sans-serif;
 }
 
-.containter {
+.container {
 	font-family: sans-serif;
 }
 
 #javascript {
 	display: none;
+	background-color: yellow;
 }
 
 #python {
 	display: none;
+	background-color: yellow;
+	color:blue;
 }
 
 #cSharp {
 	display: none;
+	background-color: green;
+	color: white;
 }
 
 #quote {
@@ -24,8 +29,6 @@ h1 {
 }
 
 .btn{
-	border: 5px;
-	border-color: black;
-	color:aquamarine
-	padding: 10px 24px;
+	border: 2px solid;
+	border-color: aquamarine;
 }
