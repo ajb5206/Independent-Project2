@@ -22,3 +22,8 @@ h1 {
 #quote {
   display: none;
 }
+
+btn{
+	border: 2px;
+	color:aquamarine
+}
