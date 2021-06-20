@@ -49,10 +49,16 @@ $(document).ready(function() {
 
 		if (count >= 1) {
 			$("#javascript").show();
+			$("#python").hide();
+			$("#cSharp").hide();
 		} else if (count === 0) {
 			$("#python").show();
+			$("#javascript").hide();
+			$("#cSharp").hide();
 		} else {
 			$("#cSharp").show();
+			$("#javascript").hide();
+			$("#python").hide();
 		};
 
 		$("#count").text(count);
@@ -61,3 +67,4 @@ $(document).ready(function() {
 		event.preventDefault();
 	});
 });
+
