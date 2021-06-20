@@ -13,12 +13,11 @@ $(document).ready(function() {
 
 
 		let count = 0;
-		if ( question1Input === "front-end" || "front end" ) {
+		if ( question1Input === "front-end") {
 			count = count +1;
 		} else {
 			count = count -1;
 		};
-
 
 		if (question2Input === "user interface") {
 			count = count +1;
@@ -38,7 +37,7 @@ $(document).ready(function() {
 			count = count -1;
 		};
 
-		if (question5Input === "dancing" || "dancing on bars") {
+		if (question5Input === "dancing") {
 			count = count +1;
 		} else {
 			count = count -1;
